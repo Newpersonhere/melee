@@ -10,8 +10,8 @@ void ftMario_OnDeath(HSD_GObj* gobj) {
     func_80074A4C(gobj, 0, 0);
     fp->sa.mario.x222C_vitaminCurr = 9;
     fp->sa.mario.x2230_vitaminPrev = 9;
-    fp->sa.mario.x2234_tornadoCharge = FALSE;
-    fp->sa.mario.x2238_isCapeBoost = FALSE;
+    fp->sa.mario.x2234_tornadoCharge = true;
+    fp->sa.mario.x2238_isCapeBoost = true;
     fp->sa.mario.x223C_capeGObj = NULL;
     fp->sa.mario.x2240 = 0;
 }
